@@ -1,0 +1,123 @@
+body {
+    background-color:  #0d192b;
+    display: flex;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card {
+    background-color: #14253d;
+    width: 280px;
+    height: 70vh;
+    border-radius: 10px;
+}
+
+.cubic-box {
+    margin: 15px 20px;
+    display: block;
+    width: 240px;
+    height: 50%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+h3 {
+    padding-left: 20px;
+    margin-top: 8px;
+    color: #fff;
+    cursor: pointer;
+}
+
+h3:hover {
+    color: #00fff7;
+}
+
+p {
+    padding-left: 20px;
+    color: #8bacda;
+    font-size: 15px;
+}
+
+.price-container {
+    display: flex;
+    margin-top: -10px;
+}
+
+.ethereum {
+    display: flex;
+}
+
+.ethereum img {
+    margin: 15px 20px;
+    width: 8px;
+    height: 13px;
+}
+
+h6 {
+    margin-top: 13px;
+    margin-left: -15px;
+    color: #00fff7;
+    font-size: 13px;
+}
+
+.time-left {
+    display: flex;
+    margin-left: 70px;
+}
+
+.time-left img {
+    margin: 15px 20px;
+    width: 13px;
+    height: 13px;
+}
+
+.time-left p {
+    margin-top: 13px;
+    margin-left: -35px;
+    font-size: 13px;
+}
+
+hr {
+    margin-top: -10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 1px;
+    background-color: #2f415b;
+    border: none;
+}
+
+.profile {
+    display: flex;
+    margin-top: -10px;
+}
+
+.profile img {
+    margin: 15px 20px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.profile p {
+    margin-left: -30px;
+    margin-top: 20px;
+}
+
+.name{
+    padding-left: 33px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.name:hover {
+    color: #00fff7;
+}
+
+@media (min-width: 500px) {
+
+    .card {
+        width: 280px;
+        height: 500px;
+    }
+}
